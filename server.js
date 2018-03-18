@@ -2,7 +2,11 @@
 // where your node app starts
 
 // init project
-const express = require('express')
+const express = require('express');
+var bodyParser = require('body-parser');
+var cors = require('cors');
+
+const app = express()
 var bodyParser = require('body-parser');
 var cors = require('cors');
 
@@ -35,7 +39,7 @@ app.get("/dreams", (request, response) => {
 
 
 // GET Call to return JSON that formats natural and unix date
-app.get('/dateValues/:dateVal', function(req,res,next) {
+app.get('/:dateVal', function(req,res,next) {
   var dateVal = req.params.dateVal;
   // Options for formatting date in natural date time
   var dateFomattingOptions = {
