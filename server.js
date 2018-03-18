@@ -3,8 +3,8 @@
 
 // Intial imports for Nodejs
 const express = require('express');
-var bodyParser = require('body-parser');
-var cors = require('cors');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 
 // Create an instance of express for our app and instantiate bodyParser and cors
 const app = express()
