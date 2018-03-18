@@ -10,8 +10,8 @@
 
 ### Example usage:
 ```
-https://general-collisionppp.glitch.me/December%2015,%202015
-https://general-collisionppp.glitch.me/1450137600
+https://fcc-timestamp-microservice-api.glitch.me//December%2015,%202015
+https://fcc-timestamp-microservice-api.glitch.me/1450137600
 ```
 ### Example output:
 ```
